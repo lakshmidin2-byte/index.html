@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Lakshmidin Worker Connect</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f2f2f2;
+}
+
+header{
+background:#0a2540;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#1e3a5f;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+.hero{
+background:#2563eb;
+color:white;
+padding:60px;
+text-align:center;
+}
+
+.hero button{
+padding:15px 30px;
+border:none;
+background:white;
+color:#2563eb;
+font-size:18px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.section{
+padding:40px;
+text-align:center;
+}
+
+.card{
+background:white;
+width:250px;
+display:inline-block;
+margin:20px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+form{
+background:white;
+padding:20px;
+width:300px;
+margin:auto;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+input,select{
+width:90%;
+padding:10px;
+margin:10px;
+}
+
+button{
+padding:10px 20px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:5px;
+}
+
+footer{
+background:#111;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Lakshmidin Worker Connect</h1>
+<p>Find Skilled Workers Near You</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Workers</a>
+<a href="#">Register Worker</a>
+<a href="#">Post Job</a>
+</nav>
+
+<div class="hero">
+<h2>Hire Workers Easily</h2>
+<p>Welder | Painter | Labour | Mistri | Carpenter</p>
+<button>Find Workers</button>
+</div>
+
+<div class="section">
+
+<h2>Available Workers</h2>
+
+<div class="card">
+<h3>Ramesh</h3>
+<p>Welder</p>
+<p>Experience: 5 Years</p>
+<p>₹800/day</p>
+</div>
+
+<div class="card">
+<h3>Suresh</h3>
+<p>Painter</p>
+<p>Experience: 4 Years</p>
+<p>₹700/day</p>
+</div>
+
+<div class="card">
+<h3>Mahesh</h3>
+<p>Mistri</p>
+<p>Experience: 6 Years</p>
+<p>₹900/day</p>
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Worker Registration</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<select>
+<option>Select Work</option>
+<option>Welder</option>
+<option>Painter</option>
+<option>Labour</option>
+<option>Mistri</option>
+<option>Carpenter</option>
+</select>
+
+<input type="text" placeholder="Experience">
+
+<input type="text" placeholder="Price Per Day">
+
+<button>Register</button>
+
+</form>
+
+</div>
+
+<div class="section">
+
+<h2>Post a Job</h2>
+
+<form>
+
+<input type="text" placeholder="Job Title">
+
+<input type="text" placeholder="Location">
+
+<input type="text" placeholder="Payment">
+
+<button>Post Job</button>
+
+</form>
+
+</div>
+
+<footer>
+
+<p>© 2026 Lakshmidin Worker Connect</p>
+
+</footer>
+
+</body>
+</html>
